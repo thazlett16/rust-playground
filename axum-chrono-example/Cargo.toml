@@ -5,3 +5,9 @@ edition.workspace = true
 authors.workspace = true
 
 [dependencies]
+axum = { workspace = true, features = ["default"] }
+chrono = { workspace = true, features = ["default", "serde"] }
+serde = { workspace = true, features = ["default", "derive"] }
+tracing = { workspace = true, features = ["default"] }
+tracing-subscriber = { workspace = true, features = ["default", "env-filter"] }
+tokio = { workspace = true, features = ["full"] }

@@ -98,7 +98,7 @@ mod ping_rfc3339 {
 
     pub fn new_ping_router_rfc3339() -> Router {
         Router::new().route(
-            "/ping/rfc3339",
+            "/ping/time/rfc3339",
             get(get_ping_response).post(post_ping_response),
         )
     }
@@ -169,7 +169,7 @@ mod ping_iso8601 {
 
     pub fn new_ping_router_iso8601() -> Router {
         Router::new().route(
-            "/ping/iso8601",
+            "/ping/time/iso8601",
             get(get_ping_response).post(post_ping_response),
         )
     }
