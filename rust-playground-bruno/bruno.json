@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "rust-playground-bruno",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

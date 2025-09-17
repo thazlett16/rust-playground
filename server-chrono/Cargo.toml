@@ -1,7 +1,0 @@
-[package]
-name = "server-chrono"
-version.workspace = true
-edition.workspace = true
-authors.workspace = true
-
-[dependencies]

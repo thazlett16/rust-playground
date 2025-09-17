@@ -1,0 +1,22 @@
+meta {
+  name: ping - post
+  type: http
+  seq: 3
+}
+
+post {
+  url: 127.0.0.1:3000/ping/iso8601
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "messageOptional": "test",
+    "current_date_time": "+002025-09-17T14:09:17.719801077Z"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

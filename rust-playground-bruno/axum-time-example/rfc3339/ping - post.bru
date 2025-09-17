@@ -1,0 +1,22 @@
+meta {
+  name: ping - post
+  type: http
+  seq: 2
+}
+
+post {
+  url: 127.0.0.1:3000/ping/rfc3339
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "message_optional": "test",
+    "current_date_time": null
+  }
+}
+
+settings {
+  encodeUrl: true
+}

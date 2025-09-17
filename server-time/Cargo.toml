@@ -1,7 +1,0 @@
-[package]
-name = "server-time"
-version.workspace = true
-edition.workspace = true
-authors.workspace = true
-
-[dependencies]

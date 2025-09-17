@@ -1,0 +1,13 @@
+[package]
+name = "axum-time-example"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+axum = { workspace = true, features = [ "default" ] }
+serde = { workspace = true, features = [ "default", "derive" ] }
+tracing = { workspace = true, features = [ "default" ] }
+tracing-subscriber = { workspace = true, features = [ "default", "env-filter"] }
+time = { workspace = true, features = [ "default", "serde", "parsing", "formatting", "serde-well-known" ] }
+tokio = { workspace = true, features = [ "full" ] }
